@@ -8,6 +8,7 @@ import Home from './Components/Home'
 import Header from './Components/Header'
 import Herosection from './Components/Herosection'
 import Treading from './Components/Treading'
+import Development from './Components/Development'
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
     <>
      <BrowserRouter>
      <Routes>
-<Route path='/' element={<><Home/><Header/><Herosection/><Treading/></>}></Route>
+<Route path='/' element={<><Home/><Header/><Herosection/><Treading/><Development/></>}></Route>
 <Route path='/Herosection' element={<Herosection/>}></Route>
      </Routes>
      </BrowserRouter>
