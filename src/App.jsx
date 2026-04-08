@@ -12,6 +12,11 @@ import Development from './Components/Development'
 import Recent from './Components/Recent'
 import Email from './Components/Email'
 import Footer from './Components/Footer'
+import AboutUs from './Components/AboutUs'
+import Portfolio from './Components/PortFolios/Portfolio'
+import News from './Components/News/News'
+import Contact from './Components/ContactUs/Contact'
+
 
 function App() {
 
@@ -21,6 +26,10 @@ function App() {
      <Routes>
 <Route path='/' element={<><Home/><Header/><Herosection/><Treading/><Development/><Recent/><Email/><Footer/></>}></Route>
 <Route path='/Herosection' element={<Herosection/>}></Route>
+<Route path='/AboutUs' element={ <><AboutUs/><Header/></> }></Route>
+<Route path='/Portfolio' element={ <><Portfolio/><Header/></>}></Route>
+<Route path='/News' element={<><News/><Header/></>}></Route>
+<Route path='/Contact' element={<><Contact/><Header/></>}></Route>
      </Routes>
      </BrowserRouter>
     </>
