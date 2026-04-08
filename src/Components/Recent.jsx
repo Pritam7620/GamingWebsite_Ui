@@ -14,7 +14,7 @@ function Recent() {
         <p className='text-white font-normal text-1xl'>Transforming innovative ideas into powerful, scalable digital experiences that <br /> inspire users, solve real problems, and create lasting impact.
 </p>
       </div>
-      <div className='flex flex-wrap ml-50 gap-21 mt-10  justify-center'>
+      <div className='flex flex-wrap ml-30 gap-29 mt-20  justify-center'>
  <img className='rounded-3xl' src={gameroom} alt="gameroom" />
  <img  className='rounded-3xl' src={playgames} alt="" />
  <img  className='rounded-3xl' src={pchardware} alt="" />
