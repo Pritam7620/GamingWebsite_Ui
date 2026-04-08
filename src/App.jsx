@@ -11,6 +11,7 @@ import Treading from './Components/Treading'
 import Development from './Components/Development'
 import Recent from './Components/Recent'
 import Email from './Components/Email'
+import Footer from './Components/Footer'
 
 function App() {
 
@@ -18,7 +19,7 @@ function App() {
     <>
      <BrowserRouter>
      <Routes>
-<Route path='/' element={<><Home/><Header/><Herosection/><Treading/><Development/><Recent/><Email/></>}></Route>
+<Route path='/' element={<><Home/><Header/><Herosection/><Treading/><Development/><Recent/><Email/><Footer/></>}></Route>
 <Route path='/Herosection' element={<Herosection/>}></Route>
      </Routes>
      </BrowserRouter>
